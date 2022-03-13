@@ -44,7 +44,7 @@ Colaborar: (see also: git help workflows)
 
 """
 
-token = `${{ TOKEN }}`
+token = "${{ TOKEN }}"
 
 updater = Updater(token)
 
