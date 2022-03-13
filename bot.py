@@ -44,9 +44,7 @@ Colaborar: (see also: git help workflows)
 
 """
 
-token=${{TOKEN}}
-
-updater = Updater(token)
+updater = Updater("5228266505:AAGaOqty6mNG-VpxR5_azgePqROz9JZSgO4")
 
 def git_help(update: Update, context: CallbackContext):
     """ Envia a Messagem no Telegram """
